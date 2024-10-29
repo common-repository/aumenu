@@ -1,0 +1,100 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_aumenu 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-06 13:46-0400\n"
+"PO-Revision-Date: 2013-03-21 11:20+0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+
+# @ wp_aumenu
+msgid "Page"
+msgstr "Page"
+
+# @ wp_aumenu
+msgid "abv"
+msgstr "apv"
+
+# @ wp_aumenu
+msgid "ibu"
+msgstr "ibu"
+
+# @ wp_aumenu
+msgid "srm"
+msgstr "srm"
+
+# @ wp_aumenu
+msgid "description"
+msgstr "description"
+
+# @ wp_aumenu
+msgid "ingredients"
+msgstr "ingrédients"
+
+# @ wp_aumenu
+msgid "special edition"
+msgstr "édition spéciale"
+
+# @ wp_aumenu
+msgid "back to beers page"
+msgstr "retour à la page des bières"
+
+# @ wp_aumenu
+msgid "Settings"
+msgstr "Configurations"
+
+# @ wp_aumenu
+msgid "Firstname"
+msgstr "Prénom"
+
+# @ wp_aumenu
+msgid "Lastname"
+msgstr "Nom"
+
+# @ wp_aumenu
+msgid "Email"
+msgstr "Courriel"
+
+# @ wp_aumenu
+msgid "Public Key"
+msgstr "Clé publique"
+
+# @ wp_aumenu
+msgid "Secret Key"
+msgstr "Clé secrète"
+
+# @ wp_aumenu
+msgid "Beers"
+msgstr "Bières"
+
+# @ wp_aumenu
+msgid "Taps"
+msgstr "Lignes de fût"
+
+# @ wp_aumenu
+msgid "All"
+msgstr "Tous"
+
+# @ wp_aumenu
+msgid "Show images"
+msgstr "Afficher les images"
+
+# @ wp_aumenu
+msgid "Foods"
+msgstr "Nourritures"
+
+# @ wp_aumenu
+msgid "Last updated"
+msgstr "Dernière mise à jour"

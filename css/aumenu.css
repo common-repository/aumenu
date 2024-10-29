@@ -1,0 +1,1266 @@
+/* import google font Open Sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic,700italic,400,400italic,600,600italic);
+
+
+
+
+
+/* AuMenu Page Taps */
+
+h1.aumenu_page_title,
+div.aumenu_page_title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: normal;
+	margin-bottom: 0.5em;
+}
+
+div.aumenu_page_thumbnail {
+	margin-bottom: 1.25em;
+}
+	
+	div.aumenu_page_thumbnail img {
+		height: auto;
+		max-width: 100%;
+	}
+
+div.aumenu_page_content {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: normal;
+}
+
+a.aumenu_page_goback {
+	color: black;
+	text-decoration: none;
+}
+			
+	a.aumenu_page_goback:hover {
+		color: rgba(0, 0, 0, 0.5);
+		text-decoration: none;
+	}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Beers Content */
+
+div.aumenu_beers_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	div.aumenu_beers_content {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+	}
+	
+		div.aumenu_beers_content div.aumenu_beers_row {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+			padding-top: .5em;
+			padding-bottom: .5em;
+		}
+		
+		div.aumenu_beers_content div.aumenu_beers_row:last-child {
+			border-bottom: 0;
+		}
+		
+			div.aumenu_beers_content div.aumenu_beers_row .aumenu_beers_image img {
+				width: 100px;
+				height: 100px;
+			}
+			
+			div.aumenu_beers_content div.aumenu_beers_row .aumenu_beers_name a {
+				display: block;
+				color: black;
+				text-decoration: none;
+			}
+						
+				div.aumenu_beers_content div.aumenu_beers_row .aumenu_beers_name a:hover {
+					display: block;
+					color: rgba(0, 0, 0, 0.5);
+					text-decoration: none;
+				}
+				
+				div.aumenu_beers_content div.aumenu_beers_row .aumenu_beers_type {
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+				
+				div.aumenu_beers_content div.aumenu_beers_row .aumenu_beers_desc {
+					line-height: normal;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Bottles Content */
+
+div.aumenu_bottles_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_bottles_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_bottles_content tbody {
+		}
+		
+			table.aumenu_bottles_content tbody tr {}
+			
+			table.aumenu_bottles_content tbody tr:last-child {}
+			
+				table.aumenu_bottles_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					overflow: hidden;
+				}
+				
+/*
+				table.aumenu_bottles_content tbody tr td:nth-child(1) {
+					
+				}
+				
+				table.aumenu_bottles_content tbody tr td:nth-child(2) {
+					width: 10%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_bottles_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+*/
+				
+				table.aumenu_bottles_content tbody tr td.aumenu_bottles_name {
+					
+				}
+				
+				table.aumenu_bottles_content tbody tr td.aumenu_bottles_abv {
+					width: 10%;
+					text-align: right;
+/* 					vertical-align: top; */
+				}
+				
+				table.aumenu_bottles_content tbody tr td.aumenu_bottles_image {
+					width: 50px;
+					height: 50px;
+				}
+					table.aumenu_bottles_content tbody tr td.aumenu_bottles_image img {
+						width: 40px;
+						height: 40px;
+					}
+				
+				table.aumenu_bottles_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+				
+				table.aumenu_bottles_content tbody tr td a {
+					display: block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_bottles_content tbody tr td a:hover {
+						display: block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Page Beer */
+
+h1.aumenu_page_beer_name,
+div.aumenu_page_beer_name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: normal;
+	margin-bottom: 0.5em;
+}
+
+div.aumenu_page_beer_type {
+	font-size: .77777778em;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 1.25em;
+}
+
+div.aumenu_page_beer_image {
+	margin-bottom: 1.25em;
+}
+	
+	div.aumenu_page_beer_image img {
+		height: auto;
+		max-width: 100%;
+	}
+
+div.aumenu_page_beer_desc {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: normal;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+	div.aumenu_page_beer_desc label {
+		display: block;
+		font-weight: 700;
+		text-transform: capitalize;
+		padding-bottom: .75em;
+		margin-bottom: .75em;
+		color: #ffcc33;
+		border-bottom: 1px solid #ffcc33;
+	}
+
+div.aumenu_page_beer_ingredients {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: normal;
+}
+
+	div.aumenu_page_beer_ingredients label {
+		display: block;
+		font-weight: 700;
+		text-transform: capitalize;
+		padding-bottom: .75em;
+		margin-bottom: .75em;
+		color: #ffcc33;
+		border-bottom: 1px solid #ffcc33;
+	}
+	
+	
+ul.aumenu_page_beer_metric {
+	list-style: none;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+	ul.aumenu_page_beer_metric li {
+		list-style: none;
+		margin: 0;
+		display: inline-block;
+		padding-right: 0.25em;
+	}
+	
+	ul.aumenu_page_beer_metric li:last-child {
+		padding-right: 0;
+	}
+	
+		ul.aumenu_page_beer_metric li label {
+			text-transform: capitalize;
+			padding-right: 0.25em;
+			font-weight: 700;
+			color: #ffcc33;
+		}
+
+
+.aumenu_page_beer_extra {
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+	.aumenu_page_beer_extra .aumenu_page_beer_special_edition {
+		display: inline-block;
+		border: 2px solid #ffcc33;
+		width: 3.77777778em;
+		height: 3.77777778em;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		text-align: center;
+		color: #ffcc33;
+		line-height: normal;
+		white-space: normal;
+		position: relative;
+							
+	}	
+	
+		.aumenu_page_beer_extra .aumenu_page_beer_special_edition span {
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: block;
+			margin-top:  1.11111111em;
+			font-size: .72222222em;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;					
+			line-height: normal;
+			white-space: normal;
+		}
+								
+		.aumenu_page_beer_extra .aumenu_page_beer_special_edition:hover {
+			border-color: #fe9600;
+		}
+		
+		
+	.aumenu_page_beer_extra .aumenu_page_beer_glassware {
+		display: inline-block;
+		border: 2px solid #ffcc33;
+		width: 3.77777778em;
+		height: 3.77777778em;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;					
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: auto 75%;
+		
+	}
+	
+		.aumenu_page_beer_extra .aumenu_page_beer_glassware:hover {
+			border-color: #fe9600;
+	}
+						
+	.aumenu_page_beer_extra .aumenu_page_beer_bottle {
+		display: inline-block;
+		border: 2px solid #ffcc33;
+		width: 3.77777778em;
+		height: 3.77777778em;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;;
+							
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: auto 75%;
+		
+	}
+	
+		.aumenu_page_beer_extra .aumenu_page_beer_bottle:hover {
+			border-color: #fe9600;
+		}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Page Taps */
+
+div.aumenu_taps_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_page_taps {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_page_taps tbody {
+		}
+		
+			table.aumenu_page_taps tbody tr {}
+			
+			table.aumenu_page_taps tbody tr:last-child {}
+			
+				table.aumenu_page_taps tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					overflow: hidden;
+				}
+				
+/*
+				table.aumenu_page_taps tbody tr td:nth-child(1) {
+					width: 10%;
+					vertical-align: top;
+				}
+				
+				table.aumenu_page_taps tbody tr td:nth-child(2) {
+					
+				}
+				
+				table.aumenu_page_taps tbody tr td:nth-child(3) {
+					width: 10%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				
+				table.aumenu_page_taps tbody tr td.aumenu_page_taps_line_no {
+					width: 10%;
+					vertical-align: top;
+				}
+				table.aumenu_page_taps tbody tr td.aumenu_page_taps_image {
+					width: 50px !important;
+				}
+					table.aumenu_page_taps tbody tr td.aumenu_page_taps_image img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_page_taps tbody tr td.aumenu_page_taps_name {
+					vertical-align: top;
+				}
+				
+				table.aumenu_page_taps tbody tr td.aumenu_page_taps_abv {
+					width: 10%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_page_taps tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_page_taps tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+				
+				table.aumenu_page_taps tbody tr td a {
+					display: block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_page_taps tbody tr td a:hover {
+						display: block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Widget Taps */
+
+div.aumenu_taps_widget_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_taps_widget_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_taps_widget_content tbody {}
+		
+			table.aumenu_taps_widget_content tbody tr {}
+			
+				table.aumenu_taps_widget_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_taps_widget_content tbody tr td:nth-child(1) {
+					width: 25%;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_widget_content tbody tr td:nth-child(2) {}
+				
+				table.aumenu_taps_widget_content tbody tr td:nth-child(3) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				
+				table.aumenu_taps_widget_content tbody tr td.aumenu_page_taps_line_no {
+					width: 10%;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_widget_content tbody tr td.aumenu_page_taps_name {
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_widget_content tbody tr td.aumenu_page_taps_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_widget_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_taps_widget_content tbody tr td.aumenu_page_taps_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_taps_widget_content tbody tr td.aumenu_page_taps_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_taps_widget_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+				
+				table.aumenu_taps_widget_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_taps_widget_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Widget Beers */
+
+div.aumenu_beers_widget_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_beers_widget_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_beers_widget_content tbody {}
+		
+			table.aumenu_beers_widget_content tbody tr {}
+			
+				table.aumenu_beers_widget_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_beers_widget_content tbody tr td:nth-child(1) {}
+				
+				table.aumenu_beers_widget_content tbody tr td:nth-child(2) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				
+				table.aumenu_beers_widget_content tbody tr td.aumenu_beers_name {}
+				
+				table.aumenu_beers_widget_content tbody tr td.aumenu_beers_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_beers_widget_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_beers_widget_content tbody tr td.aumenu_beers_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_beers_widget_content tbody tr td.aumenu_beers_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_beers_widget_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5);
+				}
+				
+				table.aumenu_beers_widget_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_beers_widget_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Widget Bottles */
+
+div.aumenu_bottles_widget_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_bottles_widget_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_bottles_widget_content tbody {}
+		
+			table.aumenu_bottles_widget_content tbody tr {}
+			
+				table.aumenu_bottles_widget_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_bottles_widget_content tbody tr td:nth-child(1) {}
+				
+				table.aumenu_bottles_widget_content tbody tr td:nth-child(2) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				table.aumenu_bottles_widget_content tbody tr td.aumenu_bottles_name {}
+				
+				table.aumenu_bottles_widget_content tbody tr td.aumenu_bottles_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_bottles_widget_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_bottles_widget_content tbody tr td.aumenu_bottles_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_bottles_widget_content tbody tr td.aumenu_bottles_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_bottles_widget_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5);
+				}
+				
+				table.aumenu_bottles_widget_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_bottles_widget_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Page Foods */
+
+div.aumenu_page_foods_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+table.aumenu_page_foods {
+	table-layout: auto!important;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: normal;
+	border: 0;
+	border-collapse: collapse!important;
+	border-spacing: 0!important;
+}
+
+	table.aumenu_page_foods thead {
+		position: relative;
+	}
+			
+		table.aumenu_page_foods thead tr {
+			position: relative;
+		}
+			
+			table.aumenu_page_foods thead tr th {
+				border: 0;
+/* 				border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+				font-weight: 700;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: .5em;
+				padding-bottom: .5em;
+				height: 4em;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+	
+	table.aumenu_page_foods tbody {}
+	
+		table.aumenu_page_foods tbody tr {}
+		
+			table.aumenu_page_foods tbody tr td {
+				border: 0;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+				font-weight: 300;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: 1em;
+				padding-bottom: 1em;
+			}
+			
+			table.aumenu_page_foods tbody tr td:nth-child(1) {
+				width: auto;
+			}
+			
+			table.aumenu_page_foods tbody tr td:nth-child(2) {
+				width: 10%;
+				text-align: right;
+				vertical-align: top;
+			}
+			
+			table.aumenu_page_foods tbody tr:last-child td {
+				border-bottom: 0;
+			}
+			
+			table.aumenu_page_foods tbody tr td span {
+				display: block;
+				line-height: normal;
+				font-size: .77777778em;
+				color: rgba(0, 0, 0, 0.5)
+			}
+
+
+
+
+
+
+
+
+
+
+/* AuMenu Widget Foods */
+
+div.aumenu_foods_widget_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+table.aumenu_foods_widget_content {
+	table-layout: auto!important;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: normal;
+	border: 0;
+	border-collapse: collapse!important;
+	border-spacing: 0!important;
+}
+
+	table.aumenu_foods_widget_content thead {
+		position: relative;
+	}
+			
+		table.aumenu_foods_widget_content thead tr {
+			position: relative;
+		}
+			
+			table.aumenu_foods_widget_content thead tr th {
+				border: 0;
+/* 				border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+				font-weight: 700;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: .5em;
+				padding-bottom: .5em;
+				height: 4em;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+	
+	table.aumenu_foods_widget_content tbody {}
+	
+		table.aumenu_foods_widget_content tbody tr {}
+		
+			table.aumenu_foods_widget_content tbody tr td {
+				border: 0;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+				font-weight: 300;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: 1em;
+				padding-bottom: 1em;
+			}
+			
+			table.aumenu_foods_widget_content tbody tr td:nth-child(1) {
+				width: auto;
+			}
+			
+			table.aumenu_foods_widget_content tbody tr td:nth-child(2) {
+				width: 25%;
+				text-align: right;
+				vertical-align: top;
+			}
+			
+			table.aumenu_foods_widget_content tbody tr:last-child td {
+				border-bottom: 0;
+			}
+			
+			table.aumenu_foods_widget_content tbody tr td span {
+				display: block;
+				line-height: normal;
+				font-size: .77777778em;
+				color: rgba(0, 0, 0, 0.5)
+			}
+
+
+
+
+
+
+
+/* SHORTCODE */
+/* AuMenu Shortcode Taps */
+
+div.aumenu_taps_shortcode_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_taps_shortcode_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_taps_shortcode_content tbody {}
+		
+			table.aumenu_taps_shortcode_content tbody tr {}
+			
+				table.aumenu_taps_shortcode_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_taps_shortcode_content tbody tr td:nth-child(1) {
+					width: 25%;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr td:nth-child(2) {}
+				
+				table.aumenu_taps_shortcode_content tbody tr td:nth-child(3) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				
+				table.aumenu_taps_shortcode_content tbody tr td.aumenu_page_taps_line_no {
+					width: 10%;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr td.aumenu_page_taps_name {
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr td.aumenu_page_taps_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr td.aumenu_page_taps_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_taps_shortcode_content tbody tr td.aumenu_page_taps_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_taps_shortcode_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5)
+				}
+				
+				table.aumenu_taps_shortcode_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_taps_shortcode_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+/* AuMenu Shortcode Beers */
+
+div.aumenu_beers_shortcode_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_beers_shortcode_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_beers_shortcode_content tbody {}
+		
+			table.aumenu_beers_shortcode_content tbody tr {}
+			
+				table.aumenu_beers_shortcode_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_beers_shortcode_content tbody tr td:nth-child(1) {}
+				
+				table.aumenu_beers_shortcode_content tbody tr td:nth-child(2) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				
+				table.aumenu_beers_shortcode_content tbody tr td.aumenu_beers_name {}
+				
+				table.aumenu_beers_shortcode_content tbody tr td.aumenu_beers_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_beers_shortcode_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_beers_shortcode_content tbody tr td.aumenu_beers_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_beers_shortcode_content tbody tr td.aumenu_beers_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_beers_shortcode_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5);
+				}
+				
+				table.aumenu_beers_shortcode_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_beers_shortcode_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+
+/* AuMenu Shortcode Bottles */
+
+div.aumenu_bottles_shortcode_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+	table.aumenu_bottles_shortcode_content {
+		table-layout: fixed!important;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: normal;
+		border: 0;
+	}
+	
+		table.aumenu_bottles_shortcode_content tbody {}
+		
+			table.aumenu_bottles_shortcode_content tbody tr {}
+			
+				table.aumenu_bottles_shortcode_content tbody tr td {
+					border: 0;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+					font-weight: 300;
+					vertical-align: middle;
+					line-height: normal;
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+				
+/*
+				table.aumenu_bottles_shortcode_content tbody tr td:nth-child(1) {}
+				
+				table.aumenu_bottles_shortcode_content tbody tr td:nth-child(2) {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+*/
+				table.aumenu_bottles_shortcode_content tbody tr td.aumenu_bottles_name {}
+				
+				table.aumenu_bottles_shortcode_content tbody tr td.aumenu_bottles_abv {
+					width: 25%;
+					text-align: right;
+					vertical-align: top;
+				}
+				
+				table.aumenu_bottles_shortcode_content tbody tr:last-child td {
+					border-bottom: 0;
+				}
+				
+				table.aumenu_bottles_shortcode_content tbody tr td.aumenu_bottles_image {
+					vertical-align: top;
+					width: 50px !important;
+				}
+					table.aumenu_bottles_shortcode_content tbody tr td.aumenu_bottles_image a img {
+						width: 40px !important;
+						height: 40px !important;
+					}
+				
+				table.aumenu_bottles_shortcode_content tbody tr td span {
+					display: block;
+					font-size: .77777778em;
+					color: rgba(0, 0, 0, 0.5);
+				}
+				
+				table.aumenu_bottles_shortcode_content tbody tr td a {
+					display: inline-block;
+					color: black;
+					text-decoration: none;
+				}
+				
+					table.aumenu_bottles_shortcode_content tbody tr td a:hover {
+						display: inline-block;
+						color: rgba(0, 0, 0, 0.5);
+						text-decoration: none;
+					}
+
+
+
+
+/* AuMenu Shortcode Foods */
+
+div.aumenu_foods_shortcode_section {
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+table.aumenu_foods_shortcode_content {
+	table-layout: auto!important;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: normal;
+	border: 0;
+	border-collapse: collapse!important;
+	border-spacing: 0!important;
+}
+
+	table.aumenu_foods_shortcode_content thead {
+		position: relative;
+	}
+			
+		table.aumenu_foods_shortcode_content thead tr {
+			position: relative;
+		}
+			
+			table.aumenu_foods_shortcode_content thead tr th {
+				border: 0;
+/* 				border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+				font-weight: 700;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: .5em;
+				padding-bottom: .5em;
+				height: 4em;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+	
+	table.aumenu_foods_shortcode_content tbody {}
+	
+		table.aumenu_foods_shortcode_content tbody tr {}
+		
+			table.aumenu_foods_shortcode_content tbody tr td {
+				border: 0;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+				font-weight: 300;
+				vertical-align: middle;
+				line-height: normal;
+				padding-top: 1em;
+				padding-bottom: 1em;
+			}
+			
+			table.aumenu_foods_shortcode_content tbody tr td:nth-child(1) {
+				width: auto;
+			}
+			
+			table.aumenu_foods_shortcode_content tbody tr td:nth-child(2) {
+				width: 25%;
+				text-align: right;
+				vertical-align: top;
+			}
+			
+			table.aumenu_foods_shortcode_content tbody tr:last-child td {
+				border-bottom: 0;
+			}
+			
+			table.aumenu_foods_shortcode_content tbody tr td span {
+				display: block;
+				line-height: normal;
+				font-size: .77777778em;
+				color: rgba(0, 0, 0, 0.5)
+			}
